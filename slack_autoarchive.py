@@ -36,7 +36,7 @@ class ChannelReaper():
                 keywords = filecontent.readlines()
 
         # remove whitespace characters like `\n` at the end of each line
-        keywords = map(lambda x: x.strip(), keywords)
+        keywords = list(map(lambda x: x.strip(), keywords))
         whitelist_keywords = self.settings.get('whitelist_keywords')
         if whitelist_keywords:
             keywords = keywords + whitelist_keywords.split(',')
