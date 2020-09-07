@@ -28,5 +28,5 @@ jobs:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           DRY_RUN: true
           DAYS_INACTIVE: 180
-          WHITELIST_KEYWORDS: general,random,activity,exective,times_,test_,dev
+          WHITELIST_KEYWORDS: 'general,random,activity,exective,times_,test_,dev'
           ADMIN_CHANNEL: activity
