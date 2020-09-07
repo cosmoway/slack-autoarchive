@@ -1,0 +1,3 @@
+{
+  "channel_template": "この channel は %s 日間活動がありませんでした. This script was run from this repo: https://github.com/cosmoway/slack-autoarchive"
+}
