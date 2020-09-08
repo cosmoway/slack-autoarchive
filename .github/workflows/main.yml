@@ -26,7 +26,7 @@ jobs:
           python slack_autoarchive.py
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          DRY_RUN: true
+          DRY_RUN: false
           DAYS_INACTIVE: 180
           WHITELIST_KEYWORDS: 'general,random,activity,times_'
           ADMIN_CHANNEL: activity
